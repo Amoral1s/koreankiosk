@@ -35,6 +35,7 @@ body, html {
   width: auto;
   color: #232629;
   font-family: "font", sans-serif;
+  overflow-x: hidden;
   font-weight: 400;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
