@@ -1277,6 +1277,9 @@ section {
   .offer-wrap-slide {
     padding-top: 30px;
   }
+  .offer-wrap-right {
+    overflow: hidden;
+  }
   .offer-wrap .slick-dots {
     position: absolute;
     right: auto;
