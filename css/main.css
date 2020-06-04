@@ -1274,13 +1274,18 @@ section {
   .offer-bottom-wrap-item div p {
     font-size: 14px;
   }
+  .offer-wrap {
+    max-width: 100%;
+    overflow: hidden;
+    padding-left: 80px;
+  }
   .offer-wrap-slide {
     padding-top: 30px;
   }
-  .offer-wrap-right {
+  .offer-right {
     overflow: hidden;
   }
-  .offer-wrap .slick-dots {
+  .offer .slick-dots {
     position: absolute;
     right: auto;
     left: -50px;
