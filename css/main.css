@@ -1527,7 +1527,8 @@ section {
     width: 100%;
   }
   .header-mobile-menu ul li {
-    width: 340px;
+    width: 360px;
+    padding-left: 20px;
   }
   .header-mobile-menu ul li a {
     color: #fff;
@@ -1535,7 +1536,6 @@ section {
     padding: 15px;
     display: block;
     border-radius: 10px 10px 0 0;
-    padding-right: 50px;
   }
   .header-mobile-menu ul li a:hover {
     background-color: #f5f5f5;
@@ -1543,7 +1543,7 @@ section {
   }
   .header-mobile-menu ul li.cat-parent {
     position: relative;
-    width: 340px;
+    width: 360px;
   }
   .header-mobile-menu ul li.cat-parent ul {
     left: 100%;
@@ -1555,7 +1555,7 @@ section {
     padding-bottom: 10px;
   }
   .header-mobile-menu ul li.cat-parent ul li {
-    width: 340px;
+    width: 360px;
   }
   .header-mobile-menu ul li.cat-parent ul li a {
     color: #000;
@@ -1566,29 +1566,33 @@ section {
     content: '';
     height: 15px;
     width: 15px;
-    top: 22px;
-    right: 30px;
+    top: 24px;
+    left: 0;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../img/icons/menu-arrow.svg);
   }
   .header-mobile-menu ul li.cat-parent:hover:after {
-    right: 15px;
-    background-image: url(../img/icons/menu-black.svg);
+    display: none;
   }
   .header-mobile-menu ul li.cat-parent ul.children:hover {
     border-radius: 10px;
     padding-top: 10px;
   }
+  .header-mobile-menu ul li.cat-parent ul.children li {
+    padding-left: 0;
+    width: 100%;
+  }
   .header-mobile-menu ul li.cat-parent ul.children li.cat-parent {
-    width: 315px;
+    width: 100%;
   }
   .header-mobile-menu ul li.cat-parent ul.children li.cat-parent ul {
     width: 265px;
   }
   .header-mobile-menu ul li.cat-parent ul.children li.cat-parent:after {
-    top: 5px;
-    right: 10px;
+    top: 8px;
+    right: 5px;
+    left: auto;
     background-image: url(../img/icons/menu-black.svg);
   }
   .header-mobile-logo {
