@@ -1527,12 +1527,12 @@ section {
     width: 100%;
   }
   .header-mobile-menu ul li {
-    width: 300px;
+    width: 340px;
   }
   .header-mobile-menu ul li a {
     color: #fff;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 15px;
     display: block;
     border-radius: 10px 10px 0 0;
     padding-right: 50px;
@@ -1543,7 +1543,7 @@ section {
   }
   .header-mobile-menu ul li.cat-parent {
     position: relative;
-    width: 300px;
+    width: 340px;
   }
   .header-mobile-menu ul li.cat-parent ul {
     left: 100%;
@@ -1555,7 +1555,7 @@ section {
     padding-bottom: 10px;
   }
   .header-mobile-menu ul li.cat-parent ul li {
-    width: 300px;
+    width: 340px;
   }
   .header-mobile-menu ul li.cat-parent ul li a {
     color: #000;
@@ -1566,7 +1566,7 @@ section {
     content: '';
     height: 15px;
     width: 15px;
-    top: 15px;
+    top: 22px;
     right: 30px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1581,10 +1581,10 @@ section {
     padding-top: 10px;
   }
   .header-mobile-menu ul li.cat-parent ul.children li.cat-parent {
-    width: 275px;
+    width: 315px;
   }
   .header-mobile-menu ul li.cat-parent ul.children li.cat-parent ul {
-    width: 235px;
+    width: 265px;
   }
   .header-mobile-menu ul li.cat-parent ul.children li.cat-parent:after {
     top: 5px;
